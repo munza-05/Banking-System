@@ -228,6 +228,7 @@ margin-top: 10px;
 }
 .services{
     display: inline-block;
+    background-color: #FEF9FC;
 }
 .ser-cont{
    text-align: center; 
@@ -337,6 +338,7 @@ height: 70px;
  .newsletter{
     text-align: center;
     background-color: #FEF9FC;
+    height: 300px;
  }
  .news-cont{
     padding-top: 20px;
@@ -372,6 +374,89 @@ border: none;
 color: white;
 border-radius: 3px;
  }
+ .footer{
+     text-align: center;
+   }
+   .foo-con{
+     display: flex;
+     width: 891px;
+     height: 192px;
+     margin-left: 100px;
+   }
+   .company{
+     width: 180px;
+     height: 192px;
+       }
+   .company h1{
+   font-family: Metropolis;
+   font-size: 16px;
+   font-weight: 600;
+   line-height: 22px;
+   text-align: left;
+   }
+   .company p{
+     font-family: Metropolis;
+     font-size: 14px;
+     font-weight: 400;
+     line-height: 22px;
+     text-align: left;
+     margin-top: 10px;
+   }
+   .comp-icons{
+     width: Hug (144px)px;
+   height: Hug (24px)px;
+   float: left;
+   margin-top: 10px;
+   }
+   .comp-icons img{
+     width: 24px;
+   height: 24px;
+   padding: 4.26px 0.99px 4.27px 0.99px;
+   }
+   .comp-details{
+     width: 140px;
+   height: 192px;
+   margin-left: 80px;
+   }
+   .comp-details h1{
+     font-family: Metropolis;
+     font-size: 18px;
+     font-weight: 600;
+     line-height: 22px;
+     text-align: left;
+       }
+   .comp-details ul{
+     list-style-type: none;
+    }
+    .ul-3{
+     width: 150px;
+    height: 192px;
+    }
+    .comp-details li{
+      color: #676767;
+    font-family: Metropolis;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    margin-top: 5px;
+    }
+    .call{
+     margin-top: 20px;
+     height: fit-content;
+     width: fit-content;
+     margin-left: 100px;
+    }
+   .call-button {
+   border-radius: 15px 0px 0px 0px;
+   text-decoration: none;
+   color: black;
+   display: flex;
+   }
+   .call-button i {
+     color: #ED017F;
+   }
+   
 @media screen and (max-width:340px) {
     .head-list, .head-button{
         display: none;
