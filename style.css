@@ -54,6 +54,14 @@ background-color: #ED017F;
 border: none;
 border-radius: 5px;
 }
+.experience{
+   height:  700px;
+   position: relative;
+}
+.exp-main{
+position: absolute;
+top: 8%;
+}
 .exp-content h1{
     font-family: Metropolis;
     font-size: 36px;
@@ -71,18 +79,18 @@ border-radius: 5px;
     line-height: 22px;
     text-align: center;
     margin-left: 320px;
-    margin-top: 15px;
+    margin-top: 25px;
 }
 .exp-cards {
     display: flex;
     flex-wrap: wrap;
-    margin: 50px 100px 50px 120px;
+    margin: 70px 100px 50px 120px;
     text-align: center;
   }
   .exp-cards .card {
     width: 25%; 
     box-sizing: border-box; 
-    padding: 10px;
+    padding: 15px;
     text-align: center; 
     width: Fixed (259px)px;
 height: Hug (231px)px;
@@ -121,21 +129,26 @@ line-height: 24px;
 text-align: left;
 width: 160px;
 height: 96px;
+margin-top: 5px;
 }
 .partners{
  text-align: center;
- height: 300px;
- background-color : #FCE0EF33;
  padding-top: 50px;
+height: 300px;
+position: relative;
+background-color: #FCE0EF33;
+}
+.part-main{
+position: absolute;
+top: 15%;
+left: 15%;
 }
 .partners h2{
     font-family: Metropolis;
     font-size: 23px;
     font-weight: 400;
     line-height: 23px;
-    letter-spacing: 2.0999999046325684px;
-    padding-top: 20px;
-    
+    letter-spacing: 2.0999999046325684px;    
 }
 .par-logos{
  height: 200px;
@@ -145,7 +158,6 @@ margin-top: 20px;
     display: flex;
     width: fit-content;
 align-items: center;
-margin-left: 100px;
 margin-top: 20px;
 padding: 10px 0px 10px 200px;
 }
@@ -173,7 +185,8 @@ margin-right: 50px;
 .circles{
     width: fit-content;
    height: 20px;
-  margin: 20px 10px 0px 640px;
+  margin: 20px 10px 0px 500px;
+  
 }
 .circle,
  .circle1{
@@ -194,6 +207,8 @@ background-color: #CCCCCC;
 }
 .glance{
     display: flex;
+height: 610px;
+
 }
  .glance-photo img {
     width: 618px;
@@ -227,8 +242,13 @@ margin-top: 10px;
     font-size: 20px;
 }
 .services{
-    display: inline-block;
-    background-color: #FEF9FC;
+    background-color: #FCE0EF33;
+height: 800px;
+position: relative;
+}
+.ser-main{
+    position: absolute;
+    top: 15%;
 }
 .ser-cont{
    text-align: center; 
@@ -248,7 +268,7 @@ line-height: 22px;
  }
  .ser-imgs{
     width: 90%;
-    margin: 70px 100px 100px 100px;
+    margin: 70px 100px 100px 90px;
  }
  .ser-cards{
     width: 254px;
@@ -280,9 +300,15 @@ border-radius: 100%;
 margin-top: 30px;
  }
 .results{
-height: 400px;
 padding-top: 60px;
-
+height: 500px;
+position: relative;
+}
+.res-main{
+    position: absolute;
+     top: 20%; 
+    left: 5%; 
+    height: fit-content;
 }
  .res-content h1{
     font-family: Metropolis;
@@ -297,16 +323,16 @@ padding-top: 60px;
     font-size: 16px;
     font-weight: 400;
     line-height: 22px;
+    margin-top: 10px;
     text-align: center;
     color: #999999;
 }
 .res-cards {
     display: flex;
     flex-wrap: wrap;
-    margin: 50px 90px 50px 200px;
-    text-align: center;
-    width: Fixed (1,170px)px;
-    height: Hug (257px)px;
+    margin: 70px 90px 50px 70px;
+    width: 1000px;
+    height: 257px;
   }
   .res-cards .cards {
     width: 25%; 
@@ -314,16 +340,15 @@ padding-top: 60px;
     
   }
 .cards{
-    width: Fixed (172px)px;
-    height: Hug (76px)px;
+    width:190px;
+    height: 90px;
+    padding-left: 70px;
 }
 .cards h1{
     font-family: Metropolis;
     font-size: 30px;
     font-weight: 700;
-    line-height: 43px;
-    text-align: left;
-    
+    line-height: 43px;    
 }
 .cards p{
     font-family: Metropolis;
@@ -331,17 +356,20 @@ padding-top: 60px;
     font-weight: 400;
     line-height: 25px;
     letter-spacing: 1px;
-    text-align: left;    
 width: 160px;
 height: 70px;
 }
  .newsletter{
-    text-align: center;
-    background-color: #FEF9FC;
-    height: 300px;
+height: 300px;
+position: relative;
+background-color: #FEF9FC;
  }
- .news-cont{
-    padding-top: 20px;
+ .new-main{
+    align-self: center;
+    position: absolute;
+    top: 15%;
+    left: 35%;
+    padding: 10px;
  }
  .news-cont h1{
 font-family: Metropolis;
@@ -375,13 +403,18 @@ color: white;
 border-radius: 3px;
  }
  .footer{
-     text-align: center;
+     position: relative;
+     height: 250px;
    }
    .foo-con{
      display: flex;
      width: 891px;
      height: 192px;
-     margin-left: 100px;
+     position: absolute;
+     top: 25%;
+     left: 15%;
+     margin: -25px 0 0 -25px;
+     padding-left: 70px;
    }
    .company{
      width: 180px;
@@ -393,6 +426,7 @@ border-radius: 3px;
    font-weight: 600;
    line-height: 22px;
    text-align: left;
+   margin-top: 5px;
    }
    .company p{
      font-family: Metropolis;
@@ -424,6 +458,7 @@ border-radius: 3px;
      font-weight: 600;
      line-height: 22px;
      text-align: left;
+     margin-top: 5px;
        }
    .comp-details ul{
      list-style-type: none;
@@ -442,7 +477,6 @@ border-radius: 3px;
     margin-top: 5px;
     }
     .call{
-     margin-top: 20px;
      height: fit-content;
      width: fit-content;
      margin-left: 100px;
