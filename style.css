@@ -11,10 +11,13 @@ gap: 0px;
 opacity: 0px;
 background-color:#FFFFFF;
 } */
+.all{
+    position: relative;
+}
 header{
     display: flex;
-    margin: 0px 100px 0px 100px;
-    background-color: whitesmoke;
+    width: 100%;
+    position: absolute;
 }
 
 .ipdc-logo img{
@@ -42,18 +45,133 @@ text-decoration: none;
     height: 40px;
     border-radius: 100%;
     align-self: center;
+    margin-left: 60px;
 }
 .head-button{
     width: 100px;
 height: 40px;
 align-self: center;
-margin-left: 20px;
+margin-left: 60px;
 padding: 8px 20px 8px 20px;
 color: white;
 background-color: #ED017F;
 border: none;
 border-radius: 5px;
 }
+.intro-page {
+    display: flex;
+  }
+  
+  .intro-left {
+    padding: 40px;
+  }
+  
+  .intro-left .intro-con {
+    padding: 20px;
+    margin-top: 150px
+  }
+  
+  .intro-con h1 {
+    width: 453px;
+height: 136px;
+font-family: Metropolis;
+font-size: 63px;
+font-weight: 900;
+line-height: 68px;
+text-align: left;
+
+  }
+  
+  .intro-con p {
+    width: 380px;
+    height: 44px;
+    margin-top: 10px;
+    font-family: Metropolis;
+font-size: 16px;
+font-weight: 400;
+line-height: 22px;
+text-align: left;
+  }
+  
+  .intro-btn {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+
+  }
+  
+  .intro-btn .btn1, .intro-btn .btn2 {
+    background-color: #ed017f;
+    color: white;
+    border: none;
+    width: 160px;
+    height: 46px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+  }
+  
+  .intro-btn .btn2 {
+    background-color: transparent;
+    border: 2px solid #ed017f;
+    color: #ed017f;
+  }
+  
+  .intro-btn .btn1:hover, .intro-btn .btn2:hover {
+    background-color: #c90064; 
+  }
+  
+  .intro-icons {
+    display: flex;
+    margin-top: 100px;
+background-color: #fff;
+  }
+  
+  .intro-icons .call-button {
+    padding: 5px;
+    margin-left: 15px;
+  }
+  
+  .intro-icons a {
+    text-decoration: none;
+  }
+  
+  .intro-icons i {
+    color: #ed017f;
+    font-size: 1.5rem; 
+    transition: color 0.3s ease; 
+  }
+  
+  .intro-icons i:hover {
+    color: #c90064; 
+  }
+  
+  .intro-icons img {
+    width: 40px; 
+    height: 40px;
+    margin: 0 10px;
+    transition: transform 0.3s ease; 
+  }
+  
+  .intro-icons img:hover {
+    transform: scale(1.1); 
+  }
+  
+  .pink {
+    width: auto;
+    height: 682px;
+    background-color: #ffeaf5;
+    display: flex;
+    margin-bottom: 50px;
+    justify-content: center;
+    align-items: center;
+  }
+  .family-pic {
+    width: 90%; 
+    max-width: 100%; 
+    height: auto; 
+  }
+  
 .experience{
    height:  700px;
    position: relative;
@@ -490,6 +608,7 @@ border-radius: 3px;
    .call-button i {
      color: #ED017F;
    }
+
    
 @media screen and (max-width:340px) {
     .head-list, .head-button{
