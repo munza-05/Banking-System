@@ -166,12 +166,50 @@ background-color: #fff;
     justify-content: center;
     align-items: center;
   }
+  .family{
+  position: relative;
+  }
   .family-pic {
     width: 90%; 
     max-width: 100%; 
     height: auto; 
   }
-  
+   .box1 ,.box2{
+        height: 71px;
+gap: 19px;
+border-radius: 55px;
+align-items: center;
+justify-content: center;
+ background-color:#FFFFFF;
+display: flex;
+     }
+    .box1 {
+        width: 191.65px;
+        position: absolute;
+        top: 10%;
+        left: -71px;
+    }
+    .box2 {
+      width: 191.65px;
+      position: absolute;
+      top: 30%;
+      left: 500px;
+  }
+   .box1 i{
+    color: #ED017F;
+   }
+   .box1,.box2 h4{
+  font-family: Metropolis;
+font-size: 18px;
+font-weight: 600;
+line-height: 22px;
+   }
+   .box2{
+    width: 204.65px;
+   }
+   .box2 i{
+    color: #ED017F;
+   }
 .experience{
    height:  700px;
    position: relative;
